@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="output">THANKS FOR REGISTERING....</h1>
+    <div class="main">
+        <h1 style="color: aqua;">Register Form</h1><hr>
+        <div class="container">
+        <p class="mid">First Name :</p>
+        <input type="text" class="inputs" placeholder="" required="true" >
+        <p class="mid">Last Name :</p>
+        <input type="text" class="inputs" placeholder="" required="true" >
+        <p class="mid">Age :</p>
+        <input type="number" class="inputs" placeholder="" required="true" >
+        <p class="mid">Email :</p>
+        <input type="email" class="inputs" placeholder="" required="true" >
+        <p class="mid">Number :</p>
+        <input type="number" class="inputs" placeholder="" required="true" >
+        </div>
+        <div class="buttom">
+            <p class="mid">Gender :</p>
+            <input type="radio" value="Male" name="Gender"><h4>Male</h4>
+            <input type="radio" value="Female" name="Gender"><h4>Female</h4>
+            <p class="mid">Language :</p>
+            <input type="radio" value="english" name="lan"><h4>English</h4>
+            <input type="radio" value="hindi" name="lan"><h4>Hindi</h4>
+            <input type="radio" value="kannada" name="lan"><h4>Kannada</h4>
+        </div>
+        <input type="submit" class="submit" value="submit">
+    </div>
+    <script>
+        let main=document.querySelector(".main");
+        //main.style.display="none";
+        let output=document.querySelector(".output");
+        output.style.display="none";
+        let submit=document.querySelector(".submit");
+        submit.addEventListener('click',()=>{
+        main.style.display="none";
+        output.style.display="";
+        //SHIVASHANKAR REDDY
+ });
+    </script>
+</body>
+</html>

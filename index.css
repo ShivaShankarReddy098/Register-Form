@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(practice\ img.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin: 150px 500px;
+    padding: 30px 30px;
+    width: 500px;
+    border: 3px solid rgb(42, 30, 30);
+    border-radius: 10px;
+    background-color: rgba(22, 21, 21,0.9);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1{
+    margin-left: 135px;
+    margin-bottom: 20px;
+
+}
+.mid{
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 10px 10px ;
+}
+.inputs{
+    color: white;
+    font-size: 1.2rem;
+    color: black;
+    border: none;
+    padding:5px;
+    margin-left: 5px;
+    width: 80%;
+    height:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h4,input{
+    color: white;
+    display: inline;
+    margin: 10px ;
+    cursor: pointer;
+    
+}
+.submit{
+    margin-left: 180px;
+    margin-top: 25px;
+    color:white;
+    background-color: red;
+    width: 130px;
+    height: 40px;
+    font: 1em sans-serif;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 3px;
+}
+.submit:hover{
+    color: white;
+    background-color: blueviolet;
+    transition: all 2s;
+}
+.output{
+    color: black;
+    letter-spacing:2px;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    
+}
